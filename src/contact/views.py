@@ -18,7 +18,7 @@ def contact(request):
 		emailTo = [settings.EMAIL_HOST_USER]
 		send_mail(subject, message, emailFrom, emailTo, fail_silently=True )
 		title = 'Thank You!'
-		confirm_message = 'Thanks for the message, we will get back to you.'
+		confirm_message = 'THe message will be look at by our most experience squad!'
 		form = None
 	context = {'title': title, 'form': form, 'confirm_message': confirm_message, }
 	template = 'contact.html'

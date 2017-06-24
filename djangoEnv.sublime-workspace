@@ -63,50 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/djangoProject/settings.py",
-			"settings":
-			{
-				"buffer_size": 7446,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/blog/models.py",
-			"settings":
-			{
-				"buffer_size": 347,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/profiles/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 2628,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/blog/templates/blog/blog.html",
-			"settings":
-			{
-				"buffer_size": 306,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/blog/templates/blog/post.html",
-			"settings":
-			{
-				"buffer_size": 180,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -115,18 +71,43 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 327.0,
+		"last_filter": "git init",
 		"selected_items":
 		[
+			[
+				"git init",
+				"git: init"
+			],
+			[
+				"git commit",
+				"git: commit"
+			],
+			[
+				"git a dd",
+				"git: add (edit)"
+			],
+			[
+				"bran",
+				"git: checkout remote branch as local"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"githup",
+				"GitHub: Public Gist from Selection"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -143,27 +124,28 @@
 		"/Users/ryanarjun/Desktop/djangoEnv/static",
 		"/Users/ryanarjun/Desktop/djangoEnv/static/media",
 		"/Users/ryanarjun/Desktop/djangoEnv/static/static",
-		"/Users/ryanarjun/Desktop/djangoEnv/src",
+		"/Users/ryanarjun/Desktop/djangoEnv/static/static/CSS",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/migrations",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates/blog",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/contact",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/contact/templates",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/djangoProject",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/templates"
 	],
 	"file_history":
 	[
+		"/Users/ryanarjun/Desktop/djangoEnv/src/djangoProject/settings.py",
+		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/models.py",
+		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates/blog/post.html",
+		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/templates/base.html",
+		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates/blog/blog.html",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/migrations/0001_initial.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/models.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/templates/navbar.html",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates/blog/post.html",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates/blog/blog.html",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/urls.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/templates/home.html",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/models.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/djangoProject/urls.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/views.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/templates/about.html",
@@ -183,9 +165,7 @@
 		"/Users/ryanarjun/Desktop/djangoEnv/src/registration/templates/login.html",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/registration/forms.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/forms.py",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/templates/base.html",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/contact/forms.py",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/djangoProject/settings.py",
 		"/Users/ryanarjun/Desktop/djangoEnv/static/static/CSS/main.css",
 		"/Users/ryanarjun/Desktop/djangoEnv/static/static/CSS/theme.css",
 		"/Users/ryanarjun/Desktop/djangoEnv/static/static/CSS/bootstrap-theme.min.css",
@@ -232,153 +212,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/djangoProject/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1305,
-								1305
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/blog/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								225,
-								231
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/profiles/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2628,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								518,
-								518
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 62.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/blog/templates/blog/blog.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/blog/templates/blog/post.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								112,
-								112
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -413,6 +248,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -430,6 +269,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"src/profiles/templates/base.html"
+			]
 		],
 		"width": 0.0
 	},
