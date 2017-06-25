@@ -63,6 +63,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/contact/views.py",
+			"settings":
+			{
+				"buffer_size": 857,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -124,15 +133,12 @@
 		"/Users/ryanarjun/Desktop/djangoEnv/static",
 		"/Users/ryanarjun/Desktop/djangoEnv/static/media",
 		"/Users/ryanarjun/Desktop/djangoEnv/static/static",
-		"/Users/ryanarjun/Desktop/djangoEnv/static/static/CSS",
+		"/Users/ryanarjun/Desktop/djangoEnv/static/static/javascript",
+		"/Users/ryanarjun/Desktop/djangoEnv/src",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/migrations",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/blog/templates/blog",
 		"/Users/ryanarjun/Desktop/djangoEnv/src/contact",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/contact/templates",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles",
-		"/Users/ryanarjun/Desktop/djangoEnv/src/profiles/templates"
+		"/Users/ryanarjun/Desktop/djangoEnv/src/contact/migrations"
 	],
 	"file_history":
 	[
@@ -212,8 +218,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/contact/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"git_savvy.file_path": "/Users/ryanarjun/Desktop/djangoEnv/src/contact/views.py",
+							"git_savvy.repo_path": "/Users/ryanarjun/Desktop/djangoEnv",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 49.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

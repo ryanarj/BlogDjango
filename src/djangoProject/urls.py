@@ -30,6 +30,7 @@ urlpatterns = [
     url(r'^accounts/', include('allauth.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^blog/', include('blog.urls')),
+    url(r'^api/blog/', include('blog.api.urls')),
 ]
 
 if settings.DEBUG:
